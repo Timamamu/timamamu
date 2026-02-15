@@ -1,0 +1,127 @@
+div {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  margin: 10px 0;
+  padding-bottom: 20px;
+}
+
+.home-text h1 {
+  font-size: 44px;
+  line-height: 56px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .home-text h1 {
+    text-align: center;
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-text h1 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+}
+
+/* @media only screen and (max-width: 767px) {
+  .home-text h4 {
+    text-align: center;
+    font-size: 20px !important;
+  }
+} */
+
+
+/* Theme color override */
+:root {
+  --accent: #cabebe;
+}
+
+/* Replace the theme's main blue */
+a,
+.form-group-with-icon.form-group-focus i,
+.block-title h3 span,
+.info-block-w-icon i,
+.project-general-info .fa,
+.share-buttons a:hover,
+.comment-author a:hover,
+.comment-metadata a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.page-links a:hover,
+.post-navigation a:hover,
+.paging-navigation a:hover,
+.lmpixels-scroll-to-top:hover {
+  color: #cabebe !important;
+}
+
+.logo-symbol,
+.preloader-spinner,
+.clients.owl-carousel .owl-dot.active span,
+.clients.owl-carousel .owl-dot:hover span,
+.testimonials.owl-carousel .owl-dot.active span,
+.testimonials.owl-carousel .owl-dot:hover span,
+.nothing-found p,
+.cat-links li a,
+.page-links a:hover,
+.paging-navigation a:hover,
+.ajax-page-nav>div.nav-item a:hover,
+.testimonials.owl-carousel .owl-nav .owl-prev:hover,
+.testimonials.owl-carousel .owl-nav .owl-next:hover,
+.clients.owl-carousel .owl-nav .owl-prev:hover,
+.clients.owl-carousel .owl-nav .owl-next:hover {
+  background-color: #cabebe !important;
+}
+
+.btn-primary,
+.btn-secondary,
+button,
+input[type="button"],
+input[type="submit"],
+.wp-block-button .wp-block-button__link,
+.border-top,
+.border-bottom,
+.form-control + .form-control-border,
+.timeline-item h5.item-period,
+.paging-navigation .page-numbers.current {
+  border-color: #cabebe !important;
+}
+
+.block-title h2:after,
+h3.comment-reply-title:after,
+.info-list li .title:after {
+  background-color: #cabebe !important;
+}
+
+/* Button hover that matches #cabebe theme */
+.btn-primary:hover,
+.btn-primary:focus,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #b89f9f !important;
+  border-color: #b89f9f !important;
+  color: #fff !important;
+}
+
+/* Optional: active/pressed state */
+.btn-primary:active,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  background-color: #a98f8f !important;
+  border-color: #a98f8f !important;
+}
